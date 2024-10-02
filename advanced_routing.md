@@ -1,0 +1,38 @@
+---
+title: "OSPF and EIGRP AS Redistribution"
+author: ["daniel.juarez@iteso.mx, enrique.rios@iteso.mx", "TEAM: 5"]
+date: "2024-10-24"
+subject: "Markdown"
+keywords: [Markdown, Example]
+subtitle: "Advanced Routing"
+lang: "en"
+titlepage: true
+titlepage-color: "1E90FF"
+titlepage-text-color: "FFFAFA"
+titlepage-rule-color: "FFFAFA"
+titlepage-rule-height: 2
+book: true
+classoption: oneside
+code-block-font-size: \scriptsize
+---
+
+# Contextualization
+
+
+## Network Topology
+
+
+## Objectives
+
+
+# Methodology
+
+
+# PoC
+
+
+# Team Findings and Member's conclusions
+
+
+# References
+
