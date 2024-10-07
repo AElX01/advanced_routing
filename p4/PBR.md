@@ -122,8 +122,9 @@ ip policy route-map PBR-Sales-Eng
 
 # Team Findings and Member's conclusions
 
-**Juarez Mota Daniel Alejandro:** Policy Based Routing was not a difficult concept to learn but also to apply given its simplicity, yet, necessary in the real world. One of the applications I found is the smart selection of traffic, it could be for instance applied on a VPN scenario where certain traffic must be encrpyted but for some other type, encryption might not be required. I did not have complications with theorycal concepts nor with their implementation given that PBR is also intuitive.
+**Juarez Mota Daniel Alejandro:** Policy Based Routing was not only a difficult concept to learn but also to apply, given its simplicity, yet it was necessary in the real world. One of the applications I found is the smart selection of traffic. It could, for instance, be applied in a VPN scenario where certain traffic must be encrypted, but for some other type, encryption might not be required. I did not have complications with theoretical concepts or with their implementation, given that PBR is also intuitive.
 
+**Jose Enrique Rios Gomez:** Policy-Based Routing is not a particularly complex topic, but it was challenging to apply. Even though I knew the commands and the theory, I struggled with where to implement them. I initially thought that the PBR commands should be applied near the VPCs, but I was mistaken. Instead, they needed to be applied closer to the providers, as PBR redirects packets based on route maps.
 
 # References
 
