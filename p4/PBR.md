@@ -37,7 +37,7 @@ This report covers the configuration steps and implementation of Policy Based Ro
 
 The selection of the router that will redirect network traffic must be done based on the objective, in this case, certain traffic must be redirected to a certain WAN route, the only router with such capability within the topology is GDL's router, since it is directly connected to all WAN providers.
 
-To configure a PBR on a cisco router, it is required to set up access lists to target traffic of interest, then create a route map that will be configured to redirect to a certain hop all traffic that maches the access lists' criteria.
+To configure a PBR on a cisco router, it is required to set up access lists to target traffic of interest, then create a route map that will be configured to redirect to a certain hop all traffic that maches the access lists' criteria[1].
 
 - Create an access list (or a set of them):
   
@@ -122,6 +122,11 @@ ip policy route-map PBR-Sales-Eng
 
 # Team Findings and Member's conclusions
 
+**Juarez Mota Daniel Alejandro:** Policy Based Routing was not a difficult concept to learn but also to apply given its simplicity, yet, necessary in the real world. One of the applications I found is the smart selection of traffic, it could be for instance applied on a VPN scenario where certain traffic must be encrpyted but for some other type, encryption might not be required. I did not have complications with theorycal concepts nor with their implementation given that PBR is also intuitive.
+
 
 # References
 
+[1] “Policy-Based Routing (PBR) Explained,” CBT Nuggets. https://www.cbtnuggets.com/blog/technology/networking/policy-based-routing-pbr-explained
+
+‌
