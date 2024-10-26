@@ -128,6 +128,8 @@ ip policy route-map PBR-Sales-Eng
 
 # References
 
-[1] “Policy-Based Routing (PBR) Explained,” CBT Nuggets. https://www.cbtnuggets.com/blog/technology/networking/policy-based-routing-pbr-explained
+[1] 
+
+“Policy-Based Routing (PBR) Explained,” CBT Nuggets. https://www.cbtnuggets.com/blog/technology/networking/policy-based-routing-pbr-explained
 
 ‌
