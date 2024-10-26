@@ -39,6 +39,18 @@ toc: true
 
 - IGP protocols (OSPF and EIGRP) have been already configured and converged successfully in their respective **AS**.
 
+- In the **C2** router it has been declared the following command to advertise a default route:
+
+```cpp
+default-information originate always
+```
+
+- in the **C3** it has been advertised as well a default route:
+
+```cpp
+ip summary-address eigrp 1 0.0.0.0 0.0.0.0 1
+```
+
 ### CONFIGURATION GUIDE FOR eBGP SPEAKERS
 
 - Enable the **BGP** process on the router:
@@ -61,7 +73,7 @@ network {network_to_advertise} mask {mask}
 
 The above was applied to our diagram as follows:
 
-- **c2**
+- **c2** (notice the **weight** attribute to prefer **ISP1** over **ISP4**)
 
 ```cpp
 router bgp 65000
@@ -71,7 +83,7 @@ neighbor 8.1.1.2 weight 100
 neighbor 8.1.2.2 remote-as 65001
 ```
 
-- **c3**
+- **c3** (notice the **weight** attribute to prefer **ISP2** over **ISP5**)
 
 ```cpp
 router bgp 65002
